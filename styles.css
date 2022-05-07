@@ -32,6 +32,14 @@ button {
     font-size: 12px;
     cursor: pointer;
 }
+button:hover {
+    background-color: #4247a4;
+}
+
+button:active {
+    background-color: #0915f3;
+}
+
 .checkbox {
     position: relative;
 
@@ -49,6 +57,7 @@ button {
     font-size: 12px;
     color: #444;
     padding-left: 20px;
+    cursor: pointer;
 }
 .checkbox_label:before {
     content: "";
